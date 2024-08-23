@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DINETNET.Models.Entity
+namespace Modelo.Entity
 {
     public partial class Productos
     {

@@ -1,0 +1,15 @@
+D:\DINETTEST\DINET\DINETNET\Infraestructura\bin\Debug\net6.0\Infraestructura.deps.json
+D:\DINETTEST\DINET\DINETNET\Infraestructura\bin\Debug\net6.0\Infraestructura.dll
+D:\DINETTEST\DINET\DINETNET\Infraestructura\bin\Debug\net6.0\Infraestructura.pdb
+D:\DINETTEST\DINET\DINETNET\Infraestructura\bin\Debug\net6.0\Modelo.dll
+D:\DINETTEST\DINET\DINETNET\Infraestructura\bin\Debug\net6.0\Modelo.pdb
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.AssemblyReference.cache
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.AssemblyInfoInputs.cache
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.AssemblyInfo.cs
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.CoreCompileInputs.cache
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.csproj.CopyComplete
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.dll
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\refint\Infraestructura.dll
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\Infraestructura.pdb
+D:\DINETTEST\DINET\DINETNET\Infraestructura\obj\Debug\net6.0\ref\Infraestructura.dll

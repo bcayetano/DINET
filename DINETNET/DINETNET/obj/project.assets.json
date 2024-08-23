@@ -869,6 +869,30 @@
             "rid": "win"
           }
         }
+      },
+      "Infraestructura/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.33",
+          "Modelo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infraestructura.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infraestructura.dll": {}
+        }
+      },
+      "Modelo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Modelo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modelo.dll": {}
+        }
       }
     }
   },
@@ -2215,12 +2239,24 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Infraestructura/1.0.0": {
+      "type": "project",
+      "path": "../Infraestructura/Infraestructura.csproj",
+      "msbuildProject": "../Infraestructura/Infraestructura.csproj"
+    },
+    "Modelo/1.0.0": {
+      "type": "project",
+      "path": "../Modelo/Modelo.csproj",
+      "msbuildProject": "../Modelo/Modelo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Infraestructura >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.33",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.33",
+      "Modelo >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -2256,7 +2292,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DINETTEST\\DINET\\DINETNET\\Infraestructura\\Infraestructura.csproj": {
+              "projectPath": "D:\\DINETTEST\\DINET\\DINETNET\\Infraestructura\\Infraestructura.csproj"
+            },
+            "D:\\DINETTEST\\DINET\\DINETNET\\Modelo\\Modelo.csproj": {
+              "projectPath": "D:\\DINETTEST\\DINET\\DINETNET\\Modelo\\Modelo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

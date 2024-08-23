@@ -1,4 +1,4 @@
-using DINETNET.Context;
+using Infraestructura.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,5 +1,5 @@
-﻿using DINETNET.Context;
-using DINETNET.Models.Entity;
+﻿using Infraestructura.Context;
+using Modelo.Entity;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860

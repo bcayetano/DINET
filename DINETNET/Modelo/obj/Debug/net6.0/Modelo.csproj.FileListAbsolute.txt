@@ -1,0 +1,12 @@
+D:\DINETTEST\DINET\DINETNET\Modelo\bin\Debug\net6.0\Modelo.deps.json
+D:\DINETTEST\DINET\DINETNET\Modelo\bin\Debug\net6.0\Modelo.dll
+D:\DINETTEST\DINET\DINETNET\Modelo\bin\Debug\net6.0\Modelo.pdb
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\Modelo.csproj.AssemblyReference.cache
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\Modelo.AssemblyInfoInputs.cache
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\Modelo.AssemblyInfo.cs
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\Modelo.csproj.CoreCompileInputs.cache
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\Modelo.dll
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\refint\Modelo.dll
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\Modelo.pdb
+D:\DINETTEST\DINET\DINETNET\Modelo\obj\Debug\net6.0\ref\Modelo.dll
