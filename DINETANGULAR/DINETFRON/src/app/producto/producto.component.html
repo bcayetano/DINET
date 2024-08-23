@@ -1,0 +1,89 @@
+<form (ngSubmit)="buscar()" [formGroup]="formproduc">
+  <div class="container-sm">
+    <div class="row border p-3">
+      <div class="col-md-8">
+        <h1>Listado de Productos</h1>
+      </div>
+      <div class="col-md-4">
+        <button routerLink="/producto/new" class="btn btn-primary btn-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-plus-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"
+            />
+          </svg>
+          Nuevo Producto
+        </button>
+      </div>
+    </div>
+    <div class="row border bg-primary text-white p-3">
+      <div class="col-md-1">
+        <label for="id" class="form-label form-labe">Codigo:</label>
+      </div>
+      <div class="col-md-4">
+        <input
+          id="id"
+          formControlName="codigo"
+          class="form-control"
+          type="number"
+          placeholder="Codigo"
+        />
+      </div>
+      <div class="col-md-1">
+        <label for="nombre" class="form-label form-labe">Nombre:</label>
+      </div>
+      <div class="col-md-4">
+        <input
+          id="nombre"
+          class="form-control"
+          formControlName="nombre"
+          type="text"
+          placeholder="Nombre"
+        />
+      </div>
+      <div class="col-md-2">
+        <button type="submit" class="btn btn-secondary btn-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+            />
+          </svg>
+          Buscar
+        </button>
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-active table-bordered">
+        <thead>
+          <tr>
+            <th>Codigo</th>
+            <th>Nombre de Producto</th>
+            <th>Precio</th>
+            <th>Fecha de Creacion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of ListaProductos">
+            <td>{{ item.id }}</td>
+            <td>{{ item.nombre }}</td>
+            <td>{{ item.precio }}</td>
+            <td>{{ item.fechaCreacion }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</form>
